@@ -8,12 +8,12 @@ const Slider = () => {
   return (
     <div className="carousel-container">
       <div className="carousel-title">
-        <h2>My Projects</h2>
+        <h2>Lo que te ofrecemos</h2>
       </div>
 
       <Carousel
         arrows
-        slidesPerPage={3}
+        slidesPerPage={6}
         infinite
         animationSpeed={200}
         centered
@@ -23,7 +23,7 @@ const Slider = () => {
         breakpoints={{
           960: {
             slidesPerPage: 1,
-            arrows: false,
+            arrows: true,
             itemWidth: 250,
           },
         }}

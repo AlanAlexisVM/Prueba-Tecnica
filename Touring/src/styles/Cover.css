@@ -22,6 +22,12 @@
   font-size: 100px;
 }
 
+.cover-container > h3 {
+  margin-top: 8px;
+  color: white;
+  font-size: 28px;
+}
+
 .cover-container > p {
   margin-top: 8px;
   color: white;
