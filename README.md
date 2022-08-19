@@ -24,7 +24,7 @@ public
 
 src
 
-  components - Compnentes de las vistas
+  components - Componentes de las vistas
   
   views - Vistas de la App
   
