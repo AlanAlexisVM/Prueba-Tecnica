@@ -17,7 +17,6 @@ npm run buil - Crea una versión optimizada lista para mandar a produción
 
 @brainhubeu/react-carousel - Utilizada para el slider.
 
-@mui/material - Utilizada para los botones del navbar.
 
 
 El proyecto esta dividido en carpetas
@@ -31,5 +30,17 @@ src
   views - Vistas de la App
   
   media - Archivos media a utlizar.
+ 
+Actualizaciones:
+
+Navbar responsiba
+
+Solucion de las rutas utilizando react-router-dom
+
+Vistas: Nosotros, Servicios, Tableau, Blog, Contacto
+
+Con su respectivo Cover y Footer.
   
-  Fecha de la ultima modificación del README: 19/08/2022
+  Fecha de la ultima modificación del README: 20/08/2022
+
+
