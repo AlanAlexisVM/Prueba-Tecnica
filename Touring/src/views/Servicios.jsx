@@ -7,10 +7,8 @@ import Slider from "../components/slider/Slider";
 import Info from "../components/info/Info";
 import Footer from "../components/footer/Footers";
 import Contact from "../components/contact/Contact";
-import Customers from "../components/customers/Customers";
-import Car from "../components/customers/Car";
 
-function App() {
+function Servicios() {
   const [scrollHeight, setScrollHeight] = useState(0);
 
   const handleScroll = () => {
@@ -26,12 +24,10 @@ function App() {
     <div className="App">
       <Navba />
       <Cover />
-      <About />
-      <Slider />
-      <Customers />
+      <Info />
       <Footer />
     </div>
   );
 }
 
-export default App;
+export default Servicios;
