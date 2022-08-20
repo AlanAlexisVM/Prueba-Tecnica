@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/App.css";
-import Cover from "../components/cover/Cover";
+import Cover from "../components/cover/CoverN";
 import Navba from "../components/navbar/Navba";
 import Footer from "../components/footer/Footers";
 
