@@ -17,6 +17,8 @@ npm run buil - Crea una versión optimizada lista para mandar a produción
 
 @brainhubeu/react-carousel - Utilizada para el slider.
 
+@mui/material - Utilizada para los botones del navbar.
+
 
 El proyecto esta dividido en carpetas
 
