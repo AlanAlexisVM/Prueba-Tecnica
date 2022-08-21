@@ -7,24 +7,15 @@ import Slider from "../components/slider/Slider";
 import Info from "../components/info/Info";
 import Footer from "../components/footer/Footers";
 import Contact from "../components/contact/Contact";
+import Service from "../components/services/Service";
 
 function Servicios() {
-  const [scrollHeight, setScrollHeight] = useState(0);
-
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setScrollHeight(position);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, [scrollHeight]);
 
   return (
     <div className="App">
       <Navba />
       <Cover />
-      <Info />
+      <Service />
       <Footer />
     </div>
   );
