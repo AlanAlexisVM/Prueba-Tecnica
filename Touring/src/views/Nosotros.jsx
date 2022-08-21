@@ -7,17 +7,7 @@ import Info from "../components/info/Info";
 import Partners from "../components/info/Partners";
 
 function Nosotros() {
-  const [scrollHeight, setScrollHeight] = useState(0);
-
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setScrollHeight(position);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, [scrollHeight]);
-
+  
   return (
     <div className="App">
       <Navba />
