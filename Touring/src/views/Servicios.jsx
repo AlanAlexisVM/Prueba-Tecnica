@@ -7,6 +7,8 @@ import Service from "../components/services/Service";
 function Servicios() {
 
   return (
+    //Pagina de Servicios
+    //Se utiliza el componente Service para mostrar los servicios de la empresa
     <div className="App">
       <Navba />
       <Cover />

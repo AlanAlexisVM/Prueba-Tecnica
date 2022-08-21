@@ -1,9 +1,9 @@
 import React from "react";
-import Container from '@mui/material/Container';
 import "../../styles/About.css";
 
 const AboutKDD = () => {
   return (
+    //Componente que muestra la información de la empresa KDD
     <div className="about-container">
       <div className="about-desc">
         <h3>LA MANERA IDEAL PARA MANEJAR TUS DATOS</h3>

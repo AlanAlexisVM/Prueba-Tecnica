@@ -3,6 +3,7 @@ import "../../styles/About.css";
 
 const AboutPerform = () => {
   return (
+    //Componente que muestra la información de la empresa
       <div className="perform">
         <h3>QUE REALIZAMOS</h3>
         <p>

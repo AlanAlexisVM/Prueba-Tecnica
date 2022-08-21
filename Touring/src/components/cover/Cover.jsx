@@ -3,6 +3,7 @@ import "../../styles/Cover.css";
 import coverVideo from "../../media/coverVide.mp4";
 
 const Cover = () => {
+  //Componente que muestra el video de portada de la pagina principal
   return (
     <div className="cover-container">
       <video className="video" src={coverVideo} autoPlay loop muted />

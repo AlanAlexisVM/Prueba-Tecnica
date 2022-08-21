@@ -7,6 +7,8 @@ import Tab from "../components/tab/Tab";
 function Tableau() {
 
   return (
+    //Pagina de Tableau
+    //Se utiliza el componente Tab para mostrar la información de Tableau
     <div className="App">
       <Navba />
       <Cover />

@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footers";
 function Blog() {
 
   return (
+    //Pagina de Blog
     <div className="App">
       <Navba/>
       <Cover />

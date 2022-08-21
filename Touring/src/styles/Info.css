@@ -32,6 +32,19 @@
   float: right;
 }
 
+.figure-img {
+  border-radius: 80%;
+  opacity: 0.8;
+}
+
+.figure-img:hover {
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+  overflow:hidden;
+  border-radius: 0%;
+  opacity: 1;
+}
+
 .infotextp {
   width: 100%;
   height: 100%;
@@ -59,5 +72,3 @@
     font-size: 25px;
   }
 }
-
-

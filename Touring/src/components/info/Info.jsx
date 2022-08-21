@@ -5,6 +5,7 @@ import { Box, Container } from "@mui/material";
 
 function Info(props) {
   return (
+    //Componente reutilizable que muestra informacion
     <Box className="info">
       <Container className="infoimages" >
     <Figure>

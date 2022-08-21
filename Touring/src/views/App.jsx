@@ -9,6 +9,10 @@ import Customers from "../components/customers/Customers";
 function App() {
 
   return (
+    //Es el la pagian principal de la aplicación
+    //Se utiliza el componente Navba para que se muestre en todas las vistas
+    //Se utiliza el componente Cover para que se muestre en todas las vistas
+    //Se utiliza el componente Footer para que se muestre en todas las vistas
     <div className="App">
       <Navba />
       <Cover />

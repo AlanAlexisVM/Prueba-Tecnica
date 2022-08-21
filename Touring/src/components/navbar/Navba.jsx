@@ -3,13 +3,12 @@ import {
   Nav,
   NavLink,
   Bars,
-  NavMenu,
-  NavBtn,
-  NavBtnLink
+  NavMenu
 } from './Navbars';
 
 const Navba = () => {
   return (
+    //Componente de navegación
     <>
       <Nav>
         <NavLink to='/'>

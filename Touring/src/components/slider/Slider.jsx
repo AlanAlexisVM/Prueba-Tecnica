@@ -6,6 +6,7 @@ import "../../styles/Slider.css";
 
 const Slider = () => {
   return (
+    //Componente que muestra el carrusel de imagenes
     <div className="carousel-container">
       <div className="carousel-title">
         <h2>Lo que te ofrecemos</h2>

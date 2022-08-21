@@ -2,8 +2,12 @@ import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+//Estilos del componente de navegación
+
 export const Nav = styled.nav`
+  position: fixed;
   background: #000;
+  width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;

@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 const Car = () => {
   return (
+    //Componente que muestra la informacion de los clientes junto a unas imagenes
     <Row xs={1} md={3} className="g-4">
         <Col>
           <Card className='CardsCustomers'>

@@ -4,6 +4,7 @@ import coverVideo from "../../media/coverVideC.mp4";
 
 const CoverC = () => {
   return (
+    //Componente que muestra el video de portada de la pagina del Contacto
     <div className="cover-container">
       <video className="video" src={coverVideo} autoPlay loop muted />
       <h1>Turing IA</h1>

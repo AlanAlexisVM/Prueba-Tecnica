@@ -4,8 +4,10 @@ import Figure from 'react-bootstrap/Figure';
 import { Box, Container } from "@mui/material";
 
 const Partners = () => {
+    //URLs de las imagenes de los socios
     const Partner = ["https://www.turing-ia.com/assets/img/tableau-partner.png","https://www.turing-ia.com/assets/img/salesforce.jpg","https://www.turing-ia.com/assets/img/dell.png","https://www.turing-ia.com/assets/img/hp.png","https://www.turing-ia.com/assets/img/redhat.png","https://www.turing-ia.com/assets/img/microsoft.png","https://www.turing-ia.com/assets/img/kaspersky.png","https://www.turing-ia.com/assets/img/ibm.png"];
     return (
+        //Componente que muestra los partners de la empresa
         <Box>
             <Container className="infotextp">
                 <h1>NUESTROS SOCIOS DE NEGOCIOS</h1>

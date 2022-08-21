@@ -4,6 +4,7 @@ import "../../styles/App.css";
 
 const Tab = () => {
     return (
+        //Componente que muestra la informacion de Tableau
         <>
         <Info title = "El análisis que los usuarios adoran usar" tex = "Es un software de analisis de datos con una excelente capa de visualización y presentación, considerado por muchos como uno de los mejores programas para la presentación visual de datos y con muy alta clasificación en la facilidad de uso . Especialmente utilizada para el Business Intelligence, simplifica los datos para presentarlos en un formato compresible e intuitivo." image = "https://www.turing-ia.com/assets/img/partnertab.png"/>
         <Info title = "Conectores de datos nativos de Tableau" tex = "Conéctese a todos sus datos, sin importar dónde estén ubicados. Tableau ofrece conectores nativos desarrollados y optimizados para numerosas bases de datos y archivos, desde hojas de cálculo y archivos PDF hasta big data, cubos y bases de datos relacionales, ya sea en las instalaciones físicas o en la nube. Estos también incluyen los datos de aplicaciones o en la web." image = "https://raw.githubusercontent.com/AlanAlexisVM/Prueba-Tecnica/main/Touring/src/media/Table.PNG"/>

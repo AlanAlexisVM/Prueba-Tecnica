@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/Slider.css";
 
+//Objeto que contiene los datos de los slides
 const slidesInfo = [
   {
     src:
@@ -40,6 +41,7 @@ const slidesInfo = [
   },
 ];
 
+//Componente que muestra los slides del slider
 const slides = slidesInfo.map((slide) => (
   <div className="slide-container">
     <img src={slide.src} alt={slide.alt} />

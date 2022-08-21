@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/About.css";
 
 const Tech = () => {
+  //Componente que muestra las imagenes de las tecnologias que utiliza la empresa
   return (
       <div className="about-img-tech">
         <img

@@ -10,7 +10,9 @@ import {
 } from 'mdb-react-ui-kit';
 
 export default function App() {
+  
   return (
+    //Componente que muestra el footer de la pagina utiiizando MDBReact
     <MDBFooter className='text-center' color='white' bgColor='dark'>
       <MDBContainer className='p-4'>
         <section className='mb-4'>
@@ -41,7 +43,7 @@ export default function App() {
               </MDBCol>
 
               <MDBCol md='5' start='12'>
-                <MDBInput contrast type='email' label='Email address' className='mb-4' />
+                <MDBInput id="domTextElement" contrast type='email' label='Email address' className='mb-4' />
               </MDBCol>
 
               <MDBCol size="auto">
@@ -91,7 +93,6 @@ export default function App() {
 
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>Nuestros servicios</h5>
-
               <ul className='list-unstyled mb-0'>
                 <li>
                   <a href='#!' className='text-white'>

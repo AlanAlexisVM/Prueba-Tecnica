@@ -7,7 +7,9 @@ import Info from "../components/info/Info";
 import Partners from "../components/info/Partners";
 
 function Nosotros() {
-  
+  //Pagina de Nosotros
+  //Se utiliza el componente Info para mostrar la información de la empresa con las propiedades title, text e image del url de la imagen
+  //Se utiliza el componente Partners para mostrar los socios de la empresa
   return (
     <div className="App">
       <Navba />

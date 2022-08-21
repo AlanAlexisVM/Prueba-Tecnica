@@ -4,6 +4,7 @@ import "../../styles/App.css";
 
 const Service = () => {
     return (
+        //Componente que muestra los servicios que ofrece la empresa utilizando el componente Info
         <>
             <Info title = "Servicios en Turing-IA" tex = "Proporcionamos a nuestros clientes una gama de productos y servicios relacionados con el analisis de datos, mediante el uso de tecnologias como Tableau, Salesforce, PMI, Scrum." image = "https://www.turing-ia.com/assets/img/servicios.jpg"/>
             <Info title = "Implementación de Proyectos (Business Analyst)" tex = "Nuestra metodología de servicios se encuentra orientada en los estándares del Project Management Institute (PMI) ® e International Project Management Association (IPMA). Esto nos permite contar con las competencias para coordinar equipos de trabajo en el inicio, planeación, construcción, monitoreo y control de las actividades y recursos involucrados en un proyecto a partir de los objetivos y requerimientos de nuestro cliente." image = "https://www.turing-ia.com/assets/img/code.jpg"/>
