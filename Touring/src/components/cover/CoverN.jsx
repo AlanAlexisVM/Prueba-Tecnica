@@ -6,7 +6,7 @@ const CoverN = () => {
   return (
     <div className="cover-container">
       <video className="video" src={coverVideo} autoPlay loop muted />
-      <h3>Nosotros</h3>
+      <h1>Nosotros</h1>
       <p>Somos consultores de Big Data</p>
     </div>
   );

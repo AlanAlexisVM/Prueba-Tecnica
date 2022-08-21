@@ -6,7 +6,7 @@ const CoverT = () => {
   return (
     <div className="cover-container">
       <video className="video" src={coverVideo} autoPlay loop muted />
-      <h3>Tableau</h3>
+      <h1>Tableau</h1>
       <p>Ayuda a las personas a ver y comprender los datos</p>
     </div>
   );
